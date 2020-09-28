@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'first-angular-app';
-
+  user = 'Nina';
+  items = [
+    {description:"breakfast",action:"No"},
+    {description:"cinema",action:"No"},
+    {description:"football",action:"No"},
+    {description:"coding",action:"No"},
+    {description:"painting",action:"No"},
+  ];
 }
